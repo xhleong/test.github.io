@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>responsive layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @media(max-width: 480px){
+            .pics{
+            width: 100vw;
+            display: block;
+            }
+            #test{
+                color: red;
+            }
+        }
+        @media(min-width: 481px){
+            .pics{
+                width: 30vw;
+                display:inline-block;
+            }
+            #test{
+                color: blue;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="test">
+        Test Text
+    </div>
+
+    <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9VoXKncpk9iBXlRsXSK5R04pDH1thdLjuvfH7TXC4no8VbIgKQ">
+    <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8jmRTe8yIO2fm0xI-ZEtW7rZXDaZTxtlgqy5LAJHf9qgUd5vv">
+    <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI63cA-1ZvPz-Am8l2TjCKB51mS7DQjrMZWnCJenpfpI1iuiva7w">
+    <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVesyxx0NeNe6UYRgC4icrndEUfFbSHSc_wQHOE4ED21I5DNzHw">
+
+</body>
+</html>

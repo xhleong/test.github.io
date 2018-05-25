@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 
+    Mobile: max-width: 480px
+Tablet: max-width: 768px
+Desktop: min-width: 1280px -->
+    <title>responsive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @media(max-width: 780px){
+            .pics{
+                display: block;
+                /*width: 100%;*/
+            }
+
+            #test{
+                color: red;
+            }
+
+            #icon{
+                display: block
+            }
+
+            #icon:hover + #links {
+                display: block;
+                position: absolute;
+                top: 50px;
+            }
+
+            nav {
+                border: 2px black solid;
+                background-color: lightgrey;
+                /*height: 100px;*/
+                display: flex;
+                justify-content: space-between;
+            }
+            #links{
+                display: none
+            }
+
+            #social{
+                border: 2px black solid;
+    /*            height: 25px;
+                width: 10px;*/
+                display:flex;
+                justify-content: space-around
+            }
+
+            .logo{
+                width: 30px;
+                height: 30px;
+            }
+
+            .item{
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+/*            #icon:hover{
+
+            }*/
+            
+
+            
+        }
+        
+        @media(min-width: 781px){
+            .pics{
+                display:inline-block;
+                /*width: 30%;*/
+            }
+            
+            #test{
+                color: blue;
+            }
+
+            #icon{
+                display: none;
+            }
+
+            nav {
+                border: 2px black solid;
+                background-color: lightgrey;
+                /*height: 100px;*/
+                display: flex;
+                justify-content: space-between;
+            }
+            #links{
+                border: 2px black solid;
+                /*height: 25px;*/
+                
+                width: 50%;
+                display:flex;
+                justify-content: space-around;
+            }
+            #social{
+                border: 2px black solid;
+    /*            height: 25px;
+                width: 10px;*/
+                display:flex;
+                justify-content: space-around
+            }
+
+            .logo{
+                width: 30px;
+                height: 30px;
+            }
+
+            .item{
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+        }
+
+
+
+/*        .pics{
+            width: 1000px;
+            width: 100vw;
+        }*/
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <img id="icon" class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNdy-yKg6tkXU6C-5DS0p5tlilI6E0U__y-GpgiI1zgHO42Clb">
+         <div id="links">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Contact</div>
+        </div>
+        <div id="social">
+            <img class="logo" src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt="">
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVUCxCSxdytOrVhI9tzm4LWhkK0lGpgGq1bS5OboUoxHCMxX-3" alt="">
+        </div>
+    </nav>
+    <div id="test">
+        <p>Text Font</p>
+        <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9VoXKncpk9iBXlRsXSK5R04pDH1thdLjuvfH7TXC4no8VbIgKQ">
+        <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8jmRTe8yIO2fm0xI-ZEtW7rZXDaZTxtlgqy5LAJHf9qgUd5vv">
+        <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI63cA-1ZvPz-Am8l2TjCKB51mS7DQjrMZWnCJenpfpI1iuiva7w">
+        <img class="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVesyxx0NeNe6UYRgC4icrndEUfFbSHSc_wQHOE4ED21I5DNzHw">
+    </div>
+</body>
+</html>

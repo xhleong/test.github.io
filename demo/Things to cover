@@ -1,0 +1,16 @@
+Things to cover
+================
+
+Morning
+1. Classes vs Ids
+2. Box Model -- Padding, border, margin, box model
+3. Display -- block, inline block, float, flex
+4. Positioning -- fixed relative, absolute
+
+
+
+Noon
+5. Flexbox (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+6. Responsive layout
+    - %/vh/vw, media port
+7. setup github something.github.io
